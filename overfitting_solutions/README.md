@@ -2,24 +2,6 @@
 
 Thu muc nay dung de minh hoa overfitting tren bo du lieu `Gia_Nha_Ha_Noi.csv`.
 
-## Chay
-
-Mo PowerShell tai thu muc goc cua project va chay bang moi truong sach:
-
-```powershell
-.\.venv_run\Scripts\Activate.ps1
-python .\overfitting_solutions\overfitting_demo.py
-```
-
-Moi truong `.venv_run` duoc tao de tranh loi DLL cua `.venv` cu. Neu chua co,
-tao va cai thu vien bang lenh:
-
-```powershell
-py -m venv .venv_run
-.\.venv_run\Scripts\python.exe -m pip install numpy scipy scikit-learn pandas matplotlib
-```
-
-Ket qua duoc tao trong `overfitting_solutions/outputs/`:
 
 - `model_results.csv`: diem R2 train/test, khoang cach train-test, MAE va RMSE.
 - `overfitting_comparison.png`: bieu do so sanh cac mo hinh.
